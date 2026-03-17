@@ -1,0 +1,58 @@
+---
+
+excalidraw-plugin: parsed
+tags: [excalidraw]
+
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
+
+
+# Excalidraw Data
+
+## Text Elements
+임의의 정수 a,b에 대해 a=bq+r, 0≤ r < b를 만족하는 유일한 정수 q,r이 존재한다  ^ohqODyNX
+
+먼저 정리의 존재성을 증명한다. 집합 S를 S={a-bk|K는 정수 a-bk ≥ 0}이라고 하자.
+0 ∈ S이면 b가 a를 나누고 따라서 q=a/b,r=0은 정리의 조건을 만족한다. 이제 0 ∉ S라 가정하자. S는 공집합이 아니므로(0 ∉ S이므로 a≠0 이다. a>0이면 a-b ⋅ 0 ∈ S이고, a<0이면 a-b(2a)=a(1-2b)∈이다),정렬원리에 의해 집합 S는 최소원소를 갖는다.
+그원소를 r=a-bq라고 하자. a=bq+r이고 r≥0 이므로 r<b임을 증명하면 된다. r≥b이면 a-b(q+1)=a-bq-b=r-b≥0이므로 a-b(q+1)∈S이다.그러나 a-b(q+1) < a-bq이고 a-bq가 집합 S의 최소원소이므로 r<b이다.
+q와r의 유일성을 증명하기 위해 q,q',r,r'이 존재하여 다음을 만족한다고 가정하자.
+a=bq+r,0≤r<b이고 a=bq'+r',0≤r'<b 편의상 r'≥r이라고 가정하자. 그러면 bq+r=bq'+r'이고 b(q-q')=r'-r이다. 따라서 b는 r'-r을 나누고 0≤r'-r≤r'<b이다. 즉 r'-r=0이므로 r'=r,q'=q이다.
+
+ ^UubcArgN
+
+%%
+## Drawing
+```compressed-json
+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
+
+2QQgkOYQ4A1RkAxM4QWO00IA00QAA===
+```
+%%
